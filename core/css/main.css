@@ -1,0 +1,127 @@
+html, body {
+	font-family: arial;
+	
+}
+
+#container {
+width: 100%;
+height: 100%;
+ overflow: hidden;
+
+	
+}
+
+.table
+{
+    width: 100%;
+	margin: auto;
+    display: table;
+overflow: hidden;
+}
+
+.row
+{
+    width: 100%;
+     height: 75px;
+    display: table-row;
+}
+
+.cell
+{
+    width: 15%;
+    height: 100%;
+	 line-height: 75px;
+    display: table-cell;
+	 border-style: solid;
+    border-width: 1px;
+	padding: 5px;
+	margin: 15px;
+	border-radius: 20px;
+	text-align: center;
+	
+color: #ffffff;
+
+font-size: 20px;
+font-weight: bold;
+}
+.header {
+border-color: navy;
+background: navy;
+border-radius: 0px;
+border-width: 0px;
+cursor: pointer;
+}
+.rndLeft {
+border-top-left-radius : 20px;
+border-bottom-left-radius : 20px;
+border-width: 1px;
+}
+
+.rndRight {
+border-top-right-radius : 20px;
+border-bottom-right-radius : 20px;
+border-width: 1px;
+}
+.giorno {
+cursor: pointer;
+}
+.giorno:hover {
+    background-color: yellow;
+} 
+.compiti {
+
+	padding-left:20px;
+	padding-right:20px;
+	 overflow: hidden;
+}
+.titolo {
+font-size: 20px;
+
+}
+
+.contenuti {
+font-size: 12px;
+}
+
+.inglese {
+
+background: linear-gradient(to bottom, #77b55a 5%, #72b352 100%);
+}
+.francese {
+background: orange;
+
+}
+.matematica {
+background: SlateGray  ;
+
+}
+.scienze {
+background: Aqua ;
+
+}
+.tecnica {
+background: MediumSeaGreen ;
+
+}
+.arte {
+background: violet;
+
+}.musica {
+background: Teal ;
+
+}.storia {
+background: maroon;
+
+}.appr {
+background: YellowGreen ;
+
+}.ginnastica {
+background: OrangeRed;
+
+}.religione {
+background: LightGray ;
+
+}.lettere {
+background: DodgerBlue  ;
+
+}
